@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>About Us Page</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<section class="about-us">
+		<div class="about">
+			<img src="images/aboutus.jpeg" class="pic">
+			<div class="text">
+				<h2>About Us</h2>
+				<p>This application detects hidden sentiments in comments and rates the product accordingly without the user having to provide rating on a product.
+				This is more about analyzing the words in the product reviews based on which can be determined whether it is positive, negative or neutral.</p>
+				<div class="homelink">
+					<a href="login.html" class="home">Back to Home</a>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
