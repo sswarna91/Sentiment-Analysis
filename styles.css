@@ -1,0 +1,263 @@
+@charset "UTF-8";
+*{
+    top: 0%;
+    left:0%;
+}
+
+body{
+    background-image: url("images/bgimage.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main{
+    position: absolute;
+    background-color: rgb(0,0,0,0.3);
+    width: 100%;
+    height: 100%;
+}
+
+.navbar{
+    width: 100%;
+    height: 10vh;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+
+.main-header{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0%;
+}
+
+.main-header h1{
+    color: white;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.navbar
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+.menuitems
+{
+    flex: 1;
+    text-align: right;
+}
+
+.menuitems ul 
+{
+    display: inline-block;
+    list-style: none;
+}
+
+.menuitems ul li
+{
+    display: inline-block;
+    margin-right: 70px;
+}
+
+.menuitems ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.form{
+    position: absolute;
+    background-color: rgb(0,0,0,0.6);
+    width: 25%;
+    height: 55vh;
+    margin-top: 11%;
+    margin-left: 37.5%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.form .btn1{
+    width: 50%;
+    height: 4.5vh;
+    background-color: #E5B961;
+    font-size: 22px;
+    margin-top: 10%;
+    border-color: transparent;
+    border-radius: 25px;
+}
+
+.form input{
+    margin-top: 10%;
+    width: 80%;
+    height: 4.5vh;
+    background-color: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom-color:orange ;
+    font-size: 22px;
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.form .button{
+    width: 80%;
+    height: 5vh;
+    cursor: pointer;
+    background-color: #E5B961;
+    border-color: transparent;
+    transition: 0.5s;
+    font-size: 22px;
+    border-radius: 25px;
+}
+
+.form .button:hover{
+    background-color: transparent;
+    color: white;
+    border-color: orange;
+}
+
+.about-us{
+	width: 100%;
+	height: 100vh;
+	/* background: #ddd; */
+	background-image: url("images/aboutbg.jpeg");
+	padding: 90px 0;
+}
+
+.about{
+	width: 1130px;
+	max-width: 85%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.pic{
+	height: 400px;
+	width: 330px;
+	margin-top: 50px;	
+}
+
+.text h2{
+	font-size: 90px; 
+	font-weight: 600; 
+	margin-bottom: 10px;
+	margin-left: 150px;	
+	margin-top: 50px;
+}
+
+.text p{
+	font-size: 18px; 
+	line-height: 25px;
+	letter-spacing: 1;
+	margin-left: 150px;
+}
+
+.homelink{
+	margin-top: 10px;
+	margin-left: 150px;
+}
+
+.contact-us{
+	width: 100%;
+	height: 100vh;
+	/* background: #ddd; */
+	background-image: url("images/aboutbg.jpeg");
+	padding: 90px 0;
+}
+
+.contact{
+	width: 1130px;
+	max-width: 85%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.contact-text h2{
+	margin-top: 5%;
+	color: black;
+	font-size: 80px;
+	margin-left: 10%
+}
+
+.moreinfo{
+	list-style: none;
+    margin: 60px 0px;
+}
+
+.moreinfo li{
+	margin-top: 25px;
+    font-size: 18px;
+    color: black;
+}
+
+.moreinfo li i{
+	background: #F44770;
+    padding: 12px;
+    border-radius: 60%;
+    margin-right: 5px;
+}
+
+.moreinfo li a{
+	color: black;
+	text-decoration:none;
+}
+
+.moreinfo li a:hover {
+    color: #F44770;
+}
+
+.socialmedia {
+    list-style: none;
+    text-align: center;
+    margin: 20px 0px;
+}
+.socialmedia li {
+    display: inline-block;
+}
+.socialmedia li i {
+    background: #F44770;
+    color: #fff;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 22%;
+    margin: 0px 5px;
+    margin-left:0px;
+    cursor: pointer;
+    transition: all .5s;
+}
+.socialmedia li i:hover {
+    background: #fff;
+    color: #000000;
+}
+
+.homelinkfromcontact{
+	margin-top: 10%;
+	margin-left: 10%;
+}
+
+.product{
+	background: #fff;
+	width: 100%;
+	height: 100%; 
+} 
+
+
+
+
